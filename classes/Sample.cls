@@ -1,4 +1,4 @@
 public class Sample{
-//Sample class added for Second Commit asdf aa aa
-//added a comment a adsa afda
+//Sample class added for Second Commit asdfgdf
+//added a comment asdfa aa
 }
