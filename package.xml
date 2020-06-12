@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>35.0</version>
+    <version>48.0</version>
     <types>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
         <members>Sample</members>
         <members>Welcome</members>
         <name>ApexClass</name>
@@ -10,6 +13,11 @@
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
     </types>
     <types>
         <members>Internal Zone</members>
@@ -176,12 +184,6 @@
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
         <name>ListView</name>
-    </types>
-    <types>
-        <members>Account.Standard_Account_Match_Rule_v1_0</members>
-        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
-        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
-        <name>MatchingRule</name>
     </types>
     <types>
         <members>Admin</members>
